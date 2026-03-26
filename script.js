@@ -72,3 +72,10 @@ function draw() {
 
 let game = setInterval(draw, 100);
 
+// Fungsi tambahan buat tombol di HP
+function control(dir) {
+    if(dir == "LEFT" && d != "RIGHT") d = "LEFT";
+    else if(dir == "UP" && d != "DOWN") d = "UP";
+    else if(dir == "RIGHT" && d != "LEFT") d = "RIGHT";
+    else if(dir == "DOWN" && d != "UP") d = "DOWN";
+}

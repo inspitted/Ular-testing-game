@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Ular Legend</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ular Legend HP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="game-container">
         <h1>🐍 ULAR JADUL 🐍</h1>
-        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <canvas id="gameCanvas" width="300" height="300"></canvas>
         <div id="scoreDisplay">Skor: 0</div>
-        <p>Gunakan Panah Keyboard untuk Main</p>
+        
+        <div class="controls">
+            <button class="btn" onclick="control('UP')">▲</button><br>
+            <button class="btn" onclick="control('LEFT')">◀</button>
+            <button class="btn" onclick="control('DOWN')">▼</button>
+            <button class="btn" onclick="control('RIGHT')">▶</button>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
 </html>
-

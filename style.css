@@ -1,0 +1,17 @@
+body {
+    background-color: #1a1a1a;
+    color: #00FF00;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.game-container { text-align: center; }
+canvas {
+    border: 5px solid #555;
+    background-color: #000;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
+}
+#scoreDisplay { font-size: 24px; margin: 10px; }
